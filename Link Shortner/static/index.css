@@ -1,0 +1,64 @@
+body{
+	margin: 0;
+}
+
+.main-part{
+	height: 100vh;
+	position: relative;
+}
+
+.texts{
+	position: absolute;
+	top: 30%;
+	left: 30%;
+	transform: translate(-50%, -50%);
+}
+
+.big-text{
+	font-size: 45px;
+	margin: 0;
+	padding: 5px 0;
+	font-weight: 700;
+}
+
+.features{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.features li{
+	font-style: italic;
+}
+
+.started{
+	margin-top: 20px;
+}
+
+.started a{
+	text-decoration: none;
+	color: white;
+	background: #7373F6;
+	font-size: 20px;
+	padding: 10px 20px;
+	border-radius: 5px;
+}
+
+@media screen and (max-width: 850px){
+	.texts{
+		top: 10%;
+		left: 10%;
+		transform: translate(0, 0);
+	}
+}
+
+@media screen and (max-width: 570px){
+	.big-text{
+		font-size: 30px;
+	}
+	.started a{
+	font-size: 18px;
+	padding: 7px 14px;
+	border-radius: 5px;
+}
+}

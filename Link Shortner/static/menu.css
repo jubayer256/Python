@@ -1,0 +1,17 @@
+nav{
+	background: black;
+	padding: 10px 0;
+}
+.menu{
+	text-align: right;
+	margin-right: 100px;
+}
+.menu a{
+	text-decoration: none;
+	color: white;
+	padding: 5px 10px;
+}
+.menu a:hover{
+	transition: 0.2s;
+	border-radius: 2px;
+}
