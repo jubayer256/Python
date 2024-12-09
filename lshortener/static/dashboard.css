@@ -1,0 +1,128 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: 'Ubuntu'
+}
+
+.container, nav{
+	min-width: 992px;
+}
+
+.top-part{
+	background: rgb(40,84,149);
+	padding: 50px 0;
+}
+
+.search-part{
+	margin: auto;
+	width: 90%;
+	text-align: center;
+}
+
+.search-part p{
+	padding: 0;
+	margin: 0;
+	color: white;
+}
+
+.search-part p:first-child{
+	font-size: 18px;
+}
+
+.search-part p:last-child{
+	font-size: 14px;
+}
+
+.search .search-box{
+	width: 80%;
+	margin: 15px 0 5px 0;
+	padding: 5px 10px;
+	border: none;
+	border-radius: 5px;
+	font-size: 17px;
+}
+
+.search .search-button{
+	border: none;
+	background: rgb(51,122,184);
+	color: white;
+	padding: 8px 10px 6px 10px;
+	border-radius: 5px;
+}
+
+.search input:focus{
+	outline: none;
+}
+
+.search .search-button:hover{
+	background: orange;
+	cursor: pointer;
+	transition: 0.2s;
+}
+
+
+.divider{
+	padding: 10px;
+	background: orange;
+	text-align: center;
+}
+
+.result-count, .sort-by, .download-csv{
+	color: white;
+	width: 30%;
+	display: inline-block;
+}
+
+.sort-by select{
+	border: none;
+	border-radius: 2px;
+}
+
+/* result part */
+
+.result-part{
+	background: black;
+
+}
+.results{
+	width: 100%;
+	margin: auto;
+	color: white;
+}
+.results{
+	text-align: center;
+}
+.index, .shorted-url, .main-url, .created, .visited, .protected{
+	display: inline-block;
+	border-right: 1px solid rgba(255, 255, 255, 1);
+	padding: 5px 0;
+}
+.shorted-url{
+	width: 25%;
+}
+.main-url{
+	width: 30%;
+}
+.index, .delete{
+	width: 5%;
+}
+.visited, .created{
+	width: 7%;
+}
+.protected{
+	width: 10%;
+}
+.delete-link{
+	text-decoration: none;
+	color: red;
+}
+
+.data{
+	border-top: 0.1px dashed rgba(255, 255, 255, 1);
+}
+
+@media screen and (max-width: 540px){
+	.search .search-box{
+		width: 100%;
+	}
+}
